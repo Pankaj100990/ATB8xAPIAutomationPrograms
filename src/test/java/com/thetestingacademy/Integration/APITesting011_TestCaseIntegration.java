@@ -50,7 +50,7 @@ public class APITesting011_TestCaseIntegration {
         token = response.jsonPath().getString("token");
         System.out.println(token);
 
-//        assertThat(token).isAlphanumeric().isNotEmpty().isNotNull().isNotBlank();
+  //     assertThat(token).isAlphanumeric().isNotEmpty().isNotNull().isNotBlank();
 
         return token;
     }

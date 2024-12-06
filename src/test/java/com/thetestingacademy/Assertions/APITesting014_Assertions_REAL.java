@@ -80,7 +80,7 @@ public class APITesting014_Assertions_REAL {
 
 
         // AssertJ( 3rd- Lib to Assertions)
-          assertThat(bookingId);
+//          assertThat(bookingId);
 //        assertThat(bookingId).isNotNull().isPositive().isNotZero();
 //        assertThat(firstname).isEqualTo("Pramod").isNotNull().isNotBlank().isNotEmpty().isAlphanumeric();
 
