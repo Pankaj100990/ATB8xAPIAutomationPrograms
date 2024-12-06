@@ -7,6 +7,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class APITesting011_TestCaseIntegration {
     //  Create a Token
@@ -48,6 +49,9 @@ public class APITesting011_TestCaseIntegration {
         // Extract the token
         token = response.jsonPath().getString("token");
         System.out.println(token);
+
+//        assertThat(token).isAlphanumeric().isNotEmpty().isNotNull().isNotBlank();
+
         return token;
     }
 
