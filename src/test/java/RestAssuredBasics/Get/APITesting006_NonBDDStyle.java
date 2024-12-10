@@ -1,4 +1,4 @@
-package RestAssuredBasics.GET;
+package RestAssuredBasics.Get;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Link;
